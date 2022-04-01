@@ -1,0 +1,168 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+.page_pilote h1 {
+font-weight: bold;
+}
+
+.page_pilote .contenair_0 header {
+position: relative;
+background-image: url();
+opacity: 0.85;
+background-position: left bottom;
+background-size: cover;
+height: 50%;
+}
+
+p {
+  margin-bottom: 1em;
+}
+.container{
+  background-color: #ffc845;
+  width: 250px;
+  height: 180px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #8a8d8f;
+  margin-left: 300px;
+  margin-bottom: 40px;
+  margin-top: 5%;
+  font-size: 40;
+}
+
+
+
+.container_1{
+  background-color: #b1b2b3;
+  width: 250px;
+  height: 200%;
+  border: solid;
+  border-color: #8a8d8f;
+  border-radius: 10px;
+  color: #27251f;
+  margin-left: 300px;
+  float: left;
+}
+h2{
+  text-align: center;
+  color: #27251f;
+  font-size: 10px;}
+
+.info {
+display: flex;
+min-height: 100%;
+}
+.info-inside{
+padding: 26%;
+padding-bottom: 26%;
+}
+
+.btn-group {
+margin: 0 auto;
+font-size: large;
+margin: auto;
+width: 50%;
+}
+.btn-3, .btn-4, .btn-5 {
+  background-color: #d0d0ce;
+  border-color: #8a8d8f;
+  border-radius: 10px;
+  color: #27251f;
+  padding: 10% 24px; 
+  cursor: pointer; 
+  width: 14%; 
+  display: block;
+  margin: auto;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.btn-1 {
+  background-color: #000000;
+  color: #d0d0ce;
+  align-content: center;
+}
+#btn-1{
+  margin-left: 20%;
+}
+#btn-2{
+  margin-left: 15%;
+}
+#btn-4{
+  margin-left: 15%;
+}
+#btn-5{
+  margin-left: 15%;
+}
+.btn-2 {
+  background-color: #000000;
+  color: #d0d0ce;
+}
+
+.btn-group button:hover {
+  background-color: #ffc835;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulaire {
+  display: none;
+  text-align: left;
+}
+.formulaire.active {
+  display: block;
+}
+
+.btn-6{
+  display: block;
+}
+.btn-7{
+  display: block;
+}
+.btn-8{
+  display: block;
+}
+
+.compte.png{
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30;
+}
+
+#entreprise{
+  background-color: #8a8d8f;
+  border-radius: 10px;
+  align-content: center;
+  font-weight: 400;
+}
+
+
+#offre{
+  background-color: #8a8d8f;
+  border-radius: 10px;
+  align-content: center;
+  font-weight: 400;
+}
+
+.formulaire {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 0px; 
+}
+.formulaire:after {
+  content: "";
+  display: block;
+}
+.text-light, .formulaire:after {
+  height: 142px; 
+}
